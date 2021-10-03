@@ -31,7 +31,7 @@ with open("./on_confee.txt", "r") as f:
             line = tort[0] + tort[1]
         # Using Edge Driver to automate tasks
         # Define the proper location
-        browser = webdriver.Edge('C:/Users/Haris Bence/Downloads/edgedriver_win64/msedgedriver.exe')
+        browser = webdriver.Edge('C:/path_to_executable')
         try:
             browser.get("https://linkedin.com/company/" + line)
             print("Working on "+line)
